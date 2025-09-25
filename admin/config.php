@@ -14,3 +14,9 @@ try {
 
 define("BASE_URL", "http://localhost/alodokter/admin/");
 // define("ADMIN_URL", BASE_URL . "admin/");
+
+// Setup mailtrap.io
+define("SMPT_HOST", "sandbox.smtp.mailtrap.io");
+define("SMTP_PORT", "587");
+define("SMTP_USERNAME", "YOUR SMTP USERNAME");
+define("SMTP_PASSWORD", "YOUR_SMTP_PASSWORD");
